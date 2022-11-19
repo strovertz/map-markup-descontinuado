@@ -15,6 +15,6 @@ def map_html():
     user_data = read_data()
     mapa = folium.Map(location=[lat_lon[0], lat_lon[1]], zoom_start=1)
     mapa = set_markup(mapa, user_data)
-    mapa.save("my_map1.html" )
+    mapa.save("map/my_map1.html" )
     
 map_html()

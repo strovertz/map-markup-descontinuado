@@ -28,7 +28,7 @@ def get_address(lati, longi):
     return location
 
 def read_data():    
-    file = open ('User_data.csv')
+    file = open ('data/User_data.csv')
     type(file)
     csvreader = csv.reader(file)
     header = []
